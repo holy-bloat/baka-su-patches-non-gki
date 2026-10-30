@@ -1,0 +1,7 @@
+--- a/security/selinux/selinuxfs.c
++++ b/security/selinux/selinuxfs.c
+@@ -41,23 +42,6 @@
+ #include "objsec.h"
+ #include "conditional.h
+-static DEFINE_MUTEX(sel_mutex);
++DEFINE_MUTEX(sel_mutex);
