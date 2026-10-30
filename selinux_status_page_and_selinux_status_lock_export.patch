@@ -1,0 +1,10 @@
+--- a/security/selinux/ss/status.c
++++ b/security/selinux/ss/status.c
+@@ -XXXX,X +XXXX,X @@
+ * In most cases, application shall confirm the kernel status is not
+ * changed without any system call invocations.
+ */
+-static struct page *selinux_status_page;
+-static DEFINE_MUTEX(selinux_status_lock);
++struct page *selinux_status_page;
++DEFINE_MUTEX(selinux_status_lock);
